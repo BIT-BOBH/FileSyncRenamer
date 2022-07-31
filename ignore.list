@@ -1,0 +1,18 @@
+# 注意，忽略目录时一定要在最后加上"/"表明这是个目录
+
+# 忽略.git目录
+./.git/
+
+# 忽略python缓存目录
+./__pycache__/
+
+# 忽略脚本自身
+./hidden.py
+./FileSyncRenamer.py
+
+# 忽略其他相关文件
+./README.md
+./requirements.txt
+./UpdateRequirements.sh
+./ignore.list
+./latest.fs.json

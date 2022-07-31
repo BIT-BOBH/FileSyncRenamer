@@ -5,6 +5,8 @@
 # 用法
 
 ```
+pip install -r requirements.txt
+
 python FileSyncRenamer.py
 ```
 
@@ -15,6 +17,10 @@ python FileSyncRenamer.py
 脚本会记录所有的目录结构以及文件哈希，在根目录生成 `latest.fs.json`
 
 将这个文件发送给你的工作伙伴，即可完成文件名、目录结构的同步
+
+如果有想忽略不想同步的目录或者文件，请在根目录新建 `ignore.list`，并以行为单位填写忽略的文件或者目录
+
+请参见本仓库示例的 `ignore.list` 文件，这里演示了忽略 .git 文件夹以及脚本自身
 
 ## 读取
 
